@@ -1,0 +1,12 @@
+• Tự tạo 1 file text và đọc nó từ 1 vị trí bất kỳ, tất cả đều sử dụng C.
+• Sử dụng hàm readdir để in ra thông tin các file trong 1 folder với
+đường dẫn fixed trong source code. Thông tin gồm có tên, size,
+modify time.
+• Build 1 driver có sẵn hàm read/write sau đó viết 1 chương trình C để
+đọc file và xem kết quả.
+– Source code của driver:
+https://drive.google.com/open?id=1mSk1mktO-
+IqA6dW9xJJQLn_35A88sCjI
+– Step để build: Gõ lệnh make, sau đó gõ lệnh «sudo insmod misc-
+module». Sau khi load thành công sẽ có file /dev/misc-module được tạo
+ra. Chúng ta sẽ đọc ghi vào file đó.
