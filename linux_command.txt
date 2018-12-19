@@ -1,0 +1,37 @@
+LINUX COMMAND:
+
+- unzip:
+tar -xvzf <file_name>.tar.gz -C <path to push output folder>
+tar -xJf <file_name>.tar.xz -C <path to push output folder>
+
+- finding files:
+find <path to findding> -name "*.extension"
+
+- get sezi of:
+ls -l  --b=Mfilename /* Size of the file*/
+ls -l --b=M *        /* Size of All the files in the current directory */
+ls -al --b=M *       /* Size of All the files including hidden files in the current directory */
+ls -al --b=M dir/    /* Size of All the files including hidden files in the 'dir' directory */
+
+-Provide permission:
+sudo chmod 777 -R *file_name*
+
+-Vim:
+:w	Lưu file
+:q	Thoát Vim
+:q!	Thoát mà không lưu
+:59 hoặc 59G	Di chuyển đến dòng 59
+
+- Disable proxy:
+unset http{,s}_proxy
+
+- Linux permission:
+Số	Mô ta quyen 	Tham chieu
+0	Không có quyen nào 	---
+1	Quyen chay 	--x
+2	Quyen ghi	-w-
+3	Quyen chay và ghi 2 (ghi) + 1(chay) = 3	-wx
+4	Quyen đoc 	r--
+5	Quyen đoc và chay  4(đoc) + 1(chay) = 5	r-x
+6	Quyen đoc và ghi	rw-
+7	Tat ca các quyen đoc-ghi-chay 4(đoc) + 2(ghi) + 1(chay) = 7	rwx

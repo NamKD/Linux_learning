@@ -1,5 +1,5 @@
 obj-m := misc-module.o
-
+obj-m := hello.o
 all:
 	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) modules
 	gcc read.c -o read
