@@ -12,7 +12,7 @@ int main ( int argc, char *path[] )
     // printf ("%s\n", path[0]);
     // printf ("%s\n", path[1]);
 
-    if (sizeof(path[1]) > 0)
+    if (argc == 2)
     {
         // Copy path to homeDir
         strcpy (homeDir, path[1]);
@@ -63,7 +63,7 @@ int main ( int argc, char *path[] )
     }
     else
     {
-        printf ("Error: Missing argument!");
+        printf ("Error: Missing argument!\n");
 
         return 1;
     }
