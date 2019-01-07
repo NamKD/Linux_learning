@@ -4,5 +4,6 @@
 
 int main ()
 {
-    system("echo NamKD_da_o_day > /home/namkdlocal/Desktop/output.txt");
+    system("echo NamKD_da_tao_child_process_thanh_cong > /home/namkdlocal/Desktop/output.txt");
+    printf ("DONE!\n");
 }
