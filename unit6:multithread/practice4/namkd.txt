@@ -1,1 +1,2 @@
-The main thread is: 50
+The sub thread is: 50
+The main thread is: 100
